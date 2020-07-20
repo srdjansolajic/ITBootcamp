@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin-ext');
+
+/************************************************************************
+                              Global styles
+************************************************************************/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(245, 245, 245);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+a:hover {
+  color: orange;
+}
+h3 {
+  margin-bottom: 10px;
+}
+/************************************************************************
+                                  Layout
+************************************************************************/
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+/************************************************************************
+                              Specific styles
+************************************************************************/
+.main-header {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+h1 {
+  color: white;
+  display: inline-block;
+}
+nav {
+  float: right;
+}
+li {
+  display: inline-block;
+  padding-left: 35px;
+  padding-top: 15px;
+}
+.div-about {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.div-about img {
+  width: 150px;
+  height: 150px;
+  border: 10px solid white;
+  border-radius: 50%;
+}
+.div-about > p {
+  padding: 5px;
+  padding-bottom: 10px;
+}
+.div-about p:last-child {
+  display: inline-block;
+}
+.section-info {
+  margin-top: 50px;
+}
+.section-info h3 {
+  display: inline-block;
+}
+.section-info p {
+  text-align: justify;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.section-work {
+  margin-top: 50px;
+}
+.section-work h3 {
+  display: inline-block;
+}
+.section-work div {
+  padding: 15px;
+}
+.section-work a {
+  padding-right: 15px;
+}
+.section-work img {
+  width: 300px;
+  height: 300px;
+  border: 10px solid black;
+  border-radius: 20px;
+}
+
+.section-contact {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.section-contact h3 {
+  display: inline-block;
+}
+.section-contact div {
+  padding: 15px;
+}
+.flwbtn {
+  padding: 15px 30px;
+  background-color: rgb(54, 54, 241);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid rgb(54, 54, 241);
+  border-radius: 35px;
+}
+.flwbtn:hover {
+  background-color: rgb(17, 17, 240);
+  color: rgb(199, 198, 198);
+}
+.msgbtn {
+  padding: 15px 30px;
+  background-color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 35px;
+}
+.msgbtn:hover {
+  background-color: rgb(199, 198, 198);
+}
+.main-footer {
+  background-color: black;
+}
+.footer-div {
+  text-align: center;
+}
+.main-footer p {
+  color: white;
+  font-size: 14px;
+}
+.main-footer p:first-child {
+  padding-top: 20px;
+}
+.main-footer p:last-child {
+  padding-bottom: 20px;
+}
+/************************************************************************
+                              Helper classes
+************************************************************************/
+.clearfix::before,
+.clearfix::after {
+  content: " ";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
+.list-reset {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

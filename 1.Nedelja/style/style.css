@@ -1,0 +1,29 @@
+h1 {
+    color: blue;
+}
+#container {
+    color: red;
+}
+li {
+    color: khaki;
+}
+ul > li {
+    color: lime !important; /* izbegavamo da koristimo !important*/
+}
+
+/* uvek uzima poslednji definisan kod */
+ul > li {
+    color: khaki;
+}
+.kvadrat {
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    border: 2px dotted black;
+    /* padding-top: 65px; */
+}
+.kvadrat p {
+    text-align: center;
+    /* margin: 0; */
+    margin-top: 65px;
+}

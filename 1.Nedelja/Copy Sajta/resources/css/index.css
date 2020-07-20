@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(243, 243, 243);
+}
+.main-header {
+    background-color: rgb(243, 243, 243);
+    position: relative;
+}
+.header-div {
+    width: 77%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+h1 {
+    display: inline-block;
+    padding: 5px 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(153, 152, 152);
+}
+h1 b {
+    color: rgb(100, 164, 248);
+}
+.header-div a {
+    float: right;
+    padding: 0 10px 10px 10px;
+}
+nav {
+    background-color: rgb(100, 164, 248);
+}
+.main-list {
+    width: 77%;
+    margin: 0 auto;
+    text-decoration: none;
+    /* border: 1px solid red; */
+}
+.main-list li {
+    display: inline-block;
+    padding: 15px;
+}
+.main-list li:first-child {
+    background-color: rgb(20, 118, 148);
+}
+.main-list li:last-child {
+    margin-top: 0px;
+    font-size: 15px;
+}
+.main-list a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main {
+    width: 77%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "photo1 photo2 photo3 photo4 photo13" "photo5 photo6 photo7 photo8 photo13" "photo9 photo10 photo11 photo12 .";
+  }
+  
+  .photo1 { padding-top: 30px; grid-area: photo1; }
+  
+  .photo2 { padding-top: 30px; grid-area: photo2; }
+  
+  .photo3 { padding-top: 30px; grid-area: photo3; }
+  
+  .photo4 { padding-top: 30px; grid-area: photo4; }
+  
+  .photo5 { padding-top: 30px; grid-area: photo5; }
+  
+  .photo6 { padding-top: 30px; grid-area: photo6; }
+  
+  .photo7 { padding-top: 30px; grid-area: photo7; }
+  
+  .photo8 { padding-top: 30px; grid-area: photo8; }
+  
+  .photo9 { padding-top: 30px; grid-area: photo9; }
+  
+  .photo10 { padding-top: 30px; grid-area: photo10; }
+  
+  .photo11 { padding-top: 30px; grid-area: photo11; }
+  
+  .photo12 { padding-top: 30px; grid-area: photo12; }
+  
+  .photo13 { grid-area: photo13; }
+
+.grid-container {
+    font-family: corbel;
+    font-size: 18px;
+}
+.dsimg img {
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+}
+.cart {
+    background-color: rgb(153, 152, 152);
+    padding: 20px 10px 10px 10px;
+    font-size: 14px;
+}
+.cart p {
+    display: inline-block;
+    padding-bottom: 5px;
+}
+.cart img {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+}
+.cart div {
+    width: 100%;
+}
+.btn {
+    padding: 10px 83px;
+    background-color: rgb(112, 218, 112);
+    color: white;
+    border: 0;
+    width: 100%;
+}    
+.main-footer {
+    background-color: #fff;
+    position: relative;
+}
+.footer-div {
+    width: 77%;
+    margin: 0 auto;
+}
+.footer-div a {
+    color: rgb(100, 164, 248);
+}
+.footer-div p {
+    display: inline-block;
+    float: right;
+    padding: 20px;
+}
+.footer-div img {
+    display: inline-block;
+}
+.footer-div p a {
+    text-decoration: none;
+    padding: 0 5px;
+}
+.footer-div p a:last-child {
+    padding-right: 0;
+}
