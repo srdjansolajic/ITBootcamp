@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Aplikacija za izracunavanje zarade</title>
+</head>
+
+<body>
+    <div id="app">
+        <div id="wrapp">
+            <div id="info">
+                <h3>Dostupan budžet u Avgustu 2020:</h3>
+                 <p> </p> <!-- Iz js-a unosimo stanje novca na racunu (+ / -) -->
+            </div>
+            <div id="state">
+                <!-- Iz js-a unosimo ukupan prihod (+) i ukupan rashod (-) -->
+                <div class="state-prihod container">
+                    <p class="prviParagrafPrihod">PRIHOD</p>
+                    <!-- <p>+ 50.000,00</p> -->
+                </div>
+                <div class="state-rashod container">
+                    <p class="prviParagrafRashod">RASHOD</p>
+                    <!-- <p>- 20.000,00</p> -->
+                    <!-- <p>30%</p> -->
+                </div>
+            </div>
+        </div>
+        <div id="input">
+            <div class="input-unos">
+                <select name="prihod/rashod" id="select-options">
+                    <option value="-1" selected>-</option>
+                    <option value="1">Prihod</option>
+                    <option value="2">Rashod</option>
+                </select>
+                <input type="text" class="input-text" placeholder="OPIS">
+                <input type="number" class="input-number" placeholder="IZNOS">
+                <button class="btn-input"> ✔ </button>
+            </div>
+        </div>
+        <div id="prihod-rashod">
+            <div id="prihod">
+                <h2>PRIHODI</h2>
+                <div class="unos-prihod">
+                    <div>
+                        <!-- <p>PRIHOD</p>
+                        <p>+ 50.000,00</p> -->
+                    </div>
+                </div>
+            </div>
+            <div id="rashod">
+                <h2>RASHODI</h2>
+                <div class="unos-rashod">
+                    <div>
+                        <!-- <p>RASHOD</p>
+                        <p>- 20.000,00</p>
+                        <p>30%</p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
