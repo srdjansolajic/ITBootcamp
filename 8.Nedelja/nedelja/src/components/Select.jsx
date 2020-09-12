@@ -10,6 +10,9 @@ const Select = ({ setYears }) => {
 
         let yearOption = []
         for (let i = 2006; i <= 2021; i++) {
+            if (i === 2011) {
+                continue
+            }
             yearOption.push(i)
         }
         setOptions(yearOption)
